@@ -23,7 +23,7 @@
 .conteiner-1 {
   display: flex;
   flex-direction: column;
-  margin-left: 15rem;
+  margin-left: 10rem;
   margin-top: 3rem;
   border-radius: 20px;
   width: 45rem;
@@ -39,8 +39,8 @@
   margin-left: 20em;
   margin-top: -2rem;
   border-radius: 100%;
-  width: 4rem;
-  height: 4rem;
+  width: 3.5rem;
+  height: 3.5rem;
   background-color: #ffffff;
 
   box-shadow:
@@ -50,12 +50,12 @@
 }
 
 .imagem-hashtag-topo {
-  width: 2rem;
-  height: 2rem;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 .titulo {
-  margin-top: -0.5rem;
+  margin-top: 0.2rem;
   color: #1c415c;
   font-size: 40px;
   text-align: center;
@@ -66,4 +66,40 @@
   font-size: 25px;
   font-weight: 700;
   color: #4b4d4d;
+}
+
+.lista-icone {
+  list-style: none;
+  width: 95%;
+  margin-bottom: 1rem;
+}
+
+.check-image {
+  margin-left: -1.7rem;
+  width: 0.8rem;
+}
+
+h3 {
+  margin-top: 0rem;
+  font-size: 23px;
+}
+
+.botao-conteiner1 {
+  border-radius: 20px;
+  width: 13rem;
+  height: 2.5rem;
+  background-color: #ffd24a;
+  border-color: #7d5e00;
+  border: solid;
+  border-left: 2px solid #7d5e00;
+  border-top: 3px solid #7d5e00;
+  border-right: 5px solid #7d5e00;
+  border-bottom: 5px solid #7d5e00;
+}
+
+.botao-conteiner1:hover {
+  border-left: 2px solid #7d5e00;
+  border-top: 2px solid #7d5e00;
+  border-right: 3px solid #7d5e00;
+  border-bottom: 3px solid #7d5e00;
 }
