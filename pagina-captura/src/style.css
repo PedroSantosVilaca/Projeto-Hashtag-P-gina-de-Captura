@@ -125,6 +125,7 @@ h3 {
 .popup-header {
   display: none;
   flex-direction: column;
+  position: fixed;
   inset: 0;
   background: rgba(0, 0, 0, 0.5);
   width: 100%;
@@ -137,8 +138,8 @@ h3 {
   display: flex;
   flex-direction: column;
   background-color: white;
-  width: 25rem;
-  height: 30rem;
+  width: 45rem;
+  height: 20rem;
   border-radius: 1rem;
 }
 
@@ -355,5 +356,148 @@ h3 {
     border-top: 2px solid #7d5e00;
     border-right: 3px solid #7d5e00;
     border-bottom: 3px solid #7d5e00;
+  }
+}
+
+@media (max-width: 450px) {
+  .primeira-dobra {
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://assets-global.website-files.com/61b9e0dd381626819c8d4f83/64957938a8a62d8071397ed5_pgc-python-bg1.webp);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 70rem;
+  }
+
+  .lira-image {
+    background-image: url(https://thunderous-eclair-ef442e.netlify.app/img/lira-dash.webp);
+    width: 100%;
+    height: 20rem;
+    background-size: cover;
+  }
+
+  .conteiner-1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0rem;
+    margin-top: 3rem;
+    border-radius: 20px;
+    width: 15rem;
+    height: 45rem;
+    background-color: #ffffff;
+    box-shadow: inset 0 0 1.2rem 0.2rem rgba(0, 0, 0, 0.3);
+    align-items: center;
+  }
+  .conteiner-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0em;
+    margin-top: 1rem;
+    border-radius: 100%;
+    width: 2rem;
+    height: 2rem;
+    background-color: #ffffff;
+
+    box-shadow:
+      2px 0 rgba(0, 0, 0, 0.182),
+      inset 0 0 1.2rem 0.2rem rgba(0, 0, 0, 0.185);
+    align-items: center;
+  }
+
+  .imagem-hashtag-topo {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .titulo {
+    margin-top: 0.2rem;
+    color: #1c415c;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .subtitulo {
+    margin-top: -1.5rem;
+    font-size: 25px;
+    font-weight: 700;
+    color: #4b4d4d;
+    text-align: center;
+  }
+
+  .lista-icone {
+    list-style: none;
+    width: 95%;
+    margin-bottom: 1rem;
+  }
+
+  .check-image {
+    margin-left: -1.7rem;
+    width: 0.8rem;
+  }
+
+  h3 {
+    margin-top: 0rem;
+    font-size: 23px;
+    text-align: center;
+  }
+
+  .botao-conteiner1 {
+    border-radius: 20px;
+    width: 13rem;
+    height: 2.5rem;
+    background-color: #ffd24a;
+    border-color: #7d5e00;
+    border: solid;
+    border-left: 2px solid #7d5e00;
+    border-top: 3px solid #7d5e00;
+    border-right: 5px solid #7d5e00;
+    border-bottom: 5px solid #7d5e00;
+  }
+
+  .botao-conteiner1:hover {
+    border-left: 2px solid #7d5e00;
+    border-top: 2px solid #7d5e00;
+    border-right: 3px solid #7d5e00;
+    border-bottom: 3px solid #7d5e00;
+  }
+
+  .disclaimer {
+    background-color: #e1e1e1;
+    width: 100%;
+    height: 100%;
+  }
+  .disclaimer-div {
+    width: 90%;
+    height: 100%;
+    margin-left: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .popup-header {
+    display: none;
+    flex-direction: column;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .popup-dentro {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 25rem;
+    height: 30rem;
+    border-radius: 1rem;
+  }
+
+  .texto-popup {
+    text-align: center;
   }
 }
