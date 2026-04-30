@@ -108,6 +108,44 @@ h3 {
   border-bottom: 3px solid #7d5e00;
 }
 
+.disclaimer {
+  background-color: #e1e1e1;
+  width: 100%;
+  height: 100%;
+}
+.disclaimer-div {
+  width: 90%;
+  height: 100%;
+  margin-left: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.popup-header {
+  display: none;
+  flex-direction: column;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-dentro {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 25rem;
+  height: 30rem;
+  border-radius: 1rem;
+}
+
+.texto-popup {
+  text-align: center;
+}
+
 @media (max-width: 1060px) {
   .primeira-dobra {
     display: flex;
@@ -212,20 +250,6 @@ h3 {
     border-right: 3px solid #7d5e00;
     border-bottom: 3px solid #7d5e00;
   }
-}
-
-.disclaimer {
-  background-color: #e1e1e1;
-  width: 100%;
-  height: 100%;
-}
-.disclaimer-div {
-  width: 90%;
-  height: 100%;
-  margin-left: 0.5rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 @media (max-width: 518px) {
