@@ -99,6 +99,7 @@ h3 {
   border-top: 3px solid #7d5e00;
   border-right: 5px solid #7d5e00;
   border-bottom: 5px solid #7d5e00;
+  cursor: pointer;
 }
 
 .botao-conteiner1:hover {
@@ -122,8 +123,11 @@ h3 {
   align-items: center;
 }
 
-.popup-header {
+.popup-header-off {
   display: none;
+}
+.popup-header {
+  display: flex;
   flex-direction: column;
   position: fixed;
   inset: 0;
@@ -177,6 +181,7 @@ h3 {
   align-self: center;
   font-weight: 600;
   margin-top: 1rem;
+  cursor: pointer;
 }
 
 #botao-formulario:hover {
@@ -200,6 +205,7 @@ h3 {
   margin-left: 34rem;
   margin-bottom: 19rem;
   position: fixed;
+  cursor: pointer;
 }
 
 #fechar {
