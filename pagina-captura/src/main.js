@@ -25,4 +25,17 @@ document.addEventListener("DOMContentLoaded", () => {
     telefone.value = "";
     email.value = "";
   });
+
+  const botaobaixo = document.getElementById("botao-conteiner2");
+
+  botaobaixo.addEventListener("click", () => {
+    const botaoFechar = document.getElementById("botao-fechar");
+    const popUpHead = document.getElementById("popup-header-off");
+
+    popUpHead.classList.add("popup-header");
+
+    botaoFechar.addEventListener("click", () => {
+      popUpHead.classList.remove("popup-header");
+    });
+  });
 });

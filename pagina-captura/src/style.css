@@ -8,12 +8,83 @@ body {
   flex-direction: column;
 }
 
+.parte-final {
+  background-image: url("https://assets-global.website-files.com/61b9e0dd381626819c8d4f83/62cefb1ecf7f4662905b5b1e_%5BBACKGROUND%5D%20-%20BANNER%2005%20-%20desktop.webp");
+  position: cover;
+  max-width: 100%;
+  height: 20rem;
+}
+
+.botao2-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.botao-conteiner2 {
+  border-radius: 20px;
+  width: 25rem;
+  height: 2.5rem;
+  background-color: #ffd24a;
+  border-color: #7d5e00;
+  border: solid;
+  border-left: 2px solid #7d5e00;
+  border-top: 3px solid #7d5e00;
+  border-right: 5px solid #7d5e00;
+  border-bottom: 5px solid #7d5e00;
+  cursor: pointer;
+  font-weight: 600;
+  margin-bottom: 8rem;
+}
+.todos-banners,
+.todos-banners2 {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 2rem;
+  transition: transform 0.3s ease;
+}
+
+.todos-banners2 {
+  padding-bottom: 8rem;
+}
+
+.img1 {
+  border-radius: 2rem;
+  align-self: center;
+  justify-self: center;
+  transition: transform 0.3s ease;
+}
+.img1:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.evento-bold {
+  color: #256783;
+}
+
+.section-banners {
+  display: flex;
+  flex-direction: row;
+}
+
+.h3-banners {
+  font-size: 40px;
+  color: black;
+  font-weight: 500;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
 .banners-eventos {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  max-width: 50%;
 }
 .img-seta-baixo {
-  margin-top: 2rem;
+  margin-top: 4rem;
   margin-left: 3rem;
 }
 .passo2,
@@ -79,9 +150,9 @@ body {
 }
 
 .seta {
-  margin-top: 1.5rem;
-  width: 4rem;
-  height: 4rem;
+  margin-top: 2.5rem;
+  width: 2rem;
+  height: 2rem;
   margin-left: 3rem;
   margin-right: 1rem;
 }
@@ -180,7 +251,8 @@ h3 {
   cursor: pointer;
 }
 
-.botao-conteiner1:hover {
+.botao-conteiner1:hover,
+.botao-conteiner2:hover {
   border-left: 2px solid #7d5e00;
   border-top: 2px solid #7d5e00;
   border-right: 3px solid #7d5e00;
