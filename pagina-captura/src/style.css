@@ -7,6 +7,15 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.banners-eventos {
+  display: flex;
+  flex-direction: column;
+}
+.img-seta-baixo {
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
 .passo2,
 .passo4 {
   max-width: 15rem;
