@@ -13,6 +13,9 @@ body {
   max-width: 60%;
   margin-left: 3rem;
 }
+.c {
+  align-items: center;
+}
 .bold-h4 {
   color: #eebe2a;
   font-weight: 600;
@@ -402,6 +405,9 @@ h3 {
 }
 
 @media (max-width: 1060px) {
+  html {
+    max-width: 100%;
+  }
   .primeira-dobra {
     display: flex;
     flex-direction: column;
@@ -411,7 +417,54 @@ h3 {
     width: 100%;
     height: 70rem;
   }
+  .parte-final {
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://assets-global.website-files.com/61b9e0dd381626819c8d4f83/62cefb1ecf7f4662905b5b1e_%5BBACKGROUND%5D%20-%20BANNER%2005%20-%20desktop.webp");
+  }
+  .foto-lira {
+    width: 100%;
+  }
+  .passo2 {
+    margin-top: 3rem;
+  }
+  .h3-banners {
+    max-width: 100%;
+  }
+  .banners-eventos {
+    max-width: 100%;
+  }
+  .c {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .todos-banners,
+  .todos-banners2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
+  .bloco-em-5-pt1,
+  .bloco-em-5-pt3 {
+    align-items: center;
+    max-width: 100%;
+    margin-left: 0rem;
+  }
+  .bloco-em-5-pt3 {
+    margin-top: 2rem;
+  }
+  .bloco-em-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    max-width: 100%;
+  }
   .lira-image {
     margin-top: 4rem;
     background-image: url(https://thunderous-eclair-ef442e.netlify.app/img/lira-dash.webp);
